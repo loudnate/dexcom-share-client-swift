@@ -564,7 +564,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Debug;
 		};
@@ -628,7 +628,7 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Release;
 		};
@@ -646,7 +646,7 @@
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mddub.ShareClient-$(PLATFORM_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -672,7 +672,7 @@
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mddub.ShareClient-$(PLATFORM_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -765,7 +765,7 @@
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mddub.ShareClient-$(PLATFORM_NAME)";
 				PRODUCT_NAME = ShareClient;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -792,7 +792,7 @@
 				INFOPLIST_FILE = ShareClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mddub.ShareClient;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mddub.ShareClient-$(PLATFORM_NAME)";
 				PRODUCT_NAME = ShareClient;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
